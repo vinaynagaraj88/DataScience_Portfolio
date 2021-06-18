@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Vinay Nagaraj
 
-You can use the [editor on GitHub](https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Welcome to my DataScience Portfolio Page
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I’m Vinay Nagaraj. I’m originally from India, currently living in Omaha, USA since 2015. I am currently working as a mainframe programmer in a financial services company. I started my IT career in 2010 and have been working on the mainframe platform.
 
-### Markdown
+I have been pursuing my Master’s degree from Bellevue University in Data Science. Below is the list of projects which I worked during my course:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1)	Project 1 – Employee Attrition(https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/tree/main/P1%20-%20Employee%20Attrition)
+2)	Project 2 – 680 Place Holder
+3)	Project 3 – 680 Place Holder
+4)	Project 4 – Credit Card Fraud(https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/tree/main/P4%20-%20Credit%20Card%20Fraud)
+5)	Project 5 – Airline Safety(https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/tree/main/P5%20-%20Airline%20Safety)
+6)	Project 6 – Hotel Booking Prediction(https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/tree/main/P6%20-%20Hotel%20Booking%20Prediction)
+7)	Project 7 – Top Selling Books(https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/tree/main/P7%20-%20Top%20Selling%20Books)
+8)	Project 8 – FIFA 2019(https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/tree/main/P8%20-%20FIFA%202019)
+9)	Project 9 – Weather Application(https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/tree/main/P9%20-%20Weather%20Application)
+10)	Project 10 – Poster on Fraud Detection(https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/tree/main/P10%20-%20Poster%20on%20Fraud%20Detection)
