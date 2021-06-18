@@ -1,4 +1,9 @@
-## Welcome to GitHub Pages
+## Credit Card Fraud Prediction
+
+### Project Summary
+
+![image](https://user-images.githubusercontent.com/54513557/122613779-09c59380-d04b-11eb-9590-af8fb5073170.png)
+
 
 You can use the [editor on GitHub](https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
