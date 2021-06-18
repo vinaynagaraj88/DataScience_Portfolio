@@ -6,7 +6,7 @@ I’m Vinay Nagaraj. I’m originally from India, currently living in Omaha, USA
 
 I have been pursuing my Master’s degree from Bellevue University in Data Science. Below is the list of projects which I worked during my course:
 
-1)	Project 1 – Employee Attrition(https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/tree/main/P1%20-%20Employee%20Attrition)
+1)	[Project 1 – Employee Attrition](https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/tree/main/P1%20-%20Employee%20Attrition)
 2)	Project 2 – 680 Place Holder
 3)	Project 3 – 680 Place Holder
 4)	Project 4 – Credit Card Fraud(https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/tree/main/P4%20-%20Credit%20Card%20Fraud)
