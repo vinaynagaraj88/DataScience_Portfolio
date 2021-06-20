@@ -36,7 +36,7 @@ This project intends to create a model for credit card fraud detection using pas
 ![image](https://user-images.githubusercontent.com/54513557/122691441-4fbe5b00-d1f5-11eb-9752-7e201db56baa.png)
 
 
-## Modeling
+### Modeling
 
 - Target variable – “Class” which determines if a transaction is fraudulent or not.
 - Our dataset is highly imbalanced as most of the transactions are non-fraudulent. 
@@ -46,6 +46,21 @@ This project intends to create a model for credit card fraud detection using pas
 
 ![image](https://user-images.githubusercontent.com/54513557/122691509-c3606800-d1f5-11eb-95e4-16c574c64a12.png)
 
+1) Random Forest Model Classification
+
+Below is the Confusion Matrix:
+
+![image](https://user-images.githubusercontent.com/54513557/122691543-f4d93380-d1f5-11eb-86f9-dccf23f70967.png)
+
+
+2) Logistic Regression Model Classification
+
+Below is the Confusion Matrix:
+
+![image](https://user-images.githubusercontent.com/54513557/122691557-0a4e5d80-d1f6-11eb-8b67-d4a0bdda0cda.png)
+
+
+### Conclusion
 
 
 
