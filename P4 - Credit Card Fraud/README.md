@@ -62,6 +62,11 @@ Below is the Confusion Matrix:
 
 ### Conclusion
 
+1) Transaction time does not have any influence on prediction of fraudulent transaction.
+2) SMOTE oversampling technique helped overcome the Imbalanced datasets challenge. 
+3) Best suited classification model for our dataset would be Random forest model. 
+4) 98.528% of the time, Random Forest model will correctly predict if the transaction was fraudulent or not.
+5) 98.032% of the time, Logistic Regression model will correctly predict if the transaction was fraudulent or not.
 
 
 [Link to code in GitHub](https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/tree/main/P4%20-%20Credit%20Card%20Fraud)
