@@ -17,6 +17,11 @@ This project intends to create a model for credit card fraud detection using pas
 4) Most of the fraudulent transactions are of small amounts. 
 
 
+### Technology Used: 
+1) Python 3
+2) Jupyter Notebook
+
+
 ### Exploratory Data Analysis
 
 1) Fraud vs Non-Fraud
