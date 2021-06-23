@@ -2,9 +2,9 @@
 
 Welcome to my DataScience Portfolio Page
 
-I’m Vinay Nagaraj. I’m originally from India, currently living in Omaha, USA since 2015. I am currently working as a mainframe programmer in a financial services company. I started my IT career in 2010 and have been working on the mainframe platform.
+I’m Vinay Nagaraj. I’m originally from India and relocated to USA in 2015. I'm curious to understand the pattern of the data and interpret the story behind the numbers. I'm currently pursuing my Masters in Data Science at Bellevue University and will graduate in August 2021. 
 
-I have been pursuing my Master’s degree from Bellevue University in Data Science. Below is the list of projects which I worked during my course:
+Below is the list of projects which I worked during my course of study:
 
 1)	[Project 1 – Employee Attrition](https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/tree/main/P1%20-%20Employee%20Attrition).  
 2)	Project 2 – 680 Place Holder.  
