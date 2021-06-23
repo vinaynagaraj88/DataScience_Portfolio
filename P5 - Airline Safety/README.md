@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+## Airline Safety Visualization
 
-You can use the [editor on GitHub](https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### Project Summary
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![image](https://user-images.githubusercontent.com/54513557/123020757-7072e600-d398-11eb-9c4f-93cb0d623b30.png)
 
-### Markdown
+A general assumption when we think about the safety during transportation is that Road travel is better than Air travel. Most of the time people think Air travel is riskier. After all, an air crash is catastrophic, with more loss of life, injury and property damage than a car accident. But is it true?  
+Airline accidents are highly publicized when they occur however airline accidents are extremely rare. These accidents are so rare that airline travel is statistically the safest mode of transportation overall.  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This project creates various visualizations based on actual data to determine how safe is Airline travel. It provides a picture that Airline travel is the safest mode of transportation and is much safest when compared to automobiles which usually is the preferred mode.  
 
-```markdown
-Syntax highlighted code block
+### Input Data
 
-# Header 1
-## Header 2
-### Header 3
+1) [Airline Safety](https://www.kaggle.com/fivethirtyeight/fivethirtyeight-airline-safety-dataset)
+2) [Motor vehicle fatality rate in US](https://www-fars.nhtsa.dot.gov/Trends/TrendsGeneral.aspx)
+3) [Data Catalog](https://catalog.data.gov/dataset)
+4) [Bureau of Transportation Statistics](https://www.bts.gov/topics/airlines-airports-and-aviation)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### Technology Used: 
 
-**Bold** and _Italic_ and `Code` text
+1) Tableau Software
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Visualizations
 
-### Jekyll Themes
+#### Dashboard
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![image](https://user-images.githubusercontent.com/54513557/123021881-7c5fa780-d39a-11eb-8b52-4dc086be1647.png)
 
-### Support or Contact
+#### Infographic
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![image](https://user-images.githubusercontent.com/54513557/123022046-c8125100-d39a-11eb-9839-95ebfebe1355.png)
+
+#### Blog Post
+
+I have written a [Blog](https://dsc640-vinaynagaraj.blogspot.com/2021/02/air-travel-is-this-safe.html) on the safety of Airline travel. It has some interesting information about Airline Travel and its safety.
