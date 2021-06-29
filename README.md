@@ -2,7 +2,7 @@
 
 Welcome to my DataScience Portfolio Page
 
-I’m Vinay Nagaraj. I’m originally from India and relocated to USA in 2015. I work as a mainframe application analyst for a financial payment solution provider. I'm curious to understand the pattern of the data and interpret the story behind the numbers. I'm currently pursuing my Masters in Data Science at Bellevue University and will graduate in August 2021. 
+I’m Vinay Nagaraj. I’m originally from India and relocated to USA in 2015. I have 11 years of experience in Mainframe development and currently associated with financial payment solution provider. I'm curious to understand the pattern of the data and interpret the story behind the numbers. I'm currently pursuing my Masters in Data Science at Bellevue University and will graduate in August 2021. 
 
 Below is the list of projects which I worked during my course of study:
 
