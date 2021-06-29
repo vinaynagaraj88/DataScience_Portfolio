@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+## Employee Attrition Prediction
 
-You can use the [editor on GitHub](https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### Project Summary
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![image](https://user-images.githubusercontent.com/54513557/123791640-50b25500-d8a5-11eb-890f-6ce8b632cfaf.png)
 
-### Markdown
+Attrition can make a big dent in your organization’s bottom line as well as its culture. For an organization to perform successfully, it is important that the employer and the employee have a good relationship and understanding. When an employee decides to quit, there will be a lot of challenges for the employer. It will impact their productivity, revenue, experience and also time invested in training the employee.  
+This project intends to identify the factors that lead to employee attrition and build a classifier model that would help an organization in predicting the employees that can leave the organization.  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Dataset details
 
-```markdown
-Syntax highlighted code block
+1. **Input Data** - [Kaggle](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+2. The dataset used is a fictional data set created by IBM data scientists and available on Kaggle.
+3. Out of 1,470 records, 237 are data related to Employees who left.
+4. Working ‘OverTime’ is a majorly contributing factor to Employee Attrition.
 
-# Header 1
-## Header 2
-### Header 3
+### Technology Used
 
-- Bulleted
-- List
+1. Python 3
+2. Jupyter Notebook
 
-1. Numbered
-2. List
+### Exploratory Data Analysis
 
-**Bold** and _Italic_ and `Code` text
+1. Attrition 'Yes' vs 'No'
 
-[Link](url) and ![Image](src)
-```
+![image](https://user-images.githubusercontent.com/54513557/123792139-e8b03e80-d8a5-11eb-9a1d-22b66e608656.png)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+2. Working Over Time
 
-### Jekyll Themes
+![image](https://user-images.githubusercontent.com/54513557/123792448-3b89f600-d8a6-11eb-98b5-9af846e1cc25.png)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Employees working overtime are more likely to leave.
 
-### Support or Contact
+3. Distance from Home
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![image](https://user-images.githubusercontent.com/54513557/123792201-fc5ba500-d8a5-11eb-871b-d751d3e43ccf.png)
+
+Employees traveling more than 10 miles are more likely to leave.
+
+4. Monthly Income
+
+![image](https://user-images.githubusercontent.com/54513557/123792326-1c8b6400-d8a6-11eb-983d-524535fb1a1d.png)
+
+Employees with monthly income of less than 5,000 are more likely to leave.
+
