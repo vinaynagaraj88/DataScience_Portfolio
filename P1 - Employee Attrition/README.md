@@ -29,17 +29,20 @@ This project intends to identify the factors that lead to employee attrition and
 
 ![image](https://user-images.githubusercontent.com/54513557/123792448-3b89f600-d8a6-11eb-98b5-9af846e1cc25.png)
 
-Employees working overtime are more likely to leave.
+Employees working overtime are more likely to leave.  
+
 
 3. Distance from Home
 
 ![image](https://user-images.githubusercontent.com/54513557/123792201-fc5ba500-d8a5-11eb-871b-d751d3e43ccf.png)
 
-Employees traveling more than 10 miles are more likely to leave.
+Employees traveling more than 10 miles are more likely to leave.  
+
 
 4. Monthly Income
 
 ![image](https://user-images.githubusercontent.com/54513557/123792326-1c8b6400-d8a6-11eb-983d-524535fb1a1d.png)
 
-Employees with monthly income of less than 5,000 are more likely to leave.
+Employees with monthly income of less than 5,000 are more likely to leave.  
+
 
