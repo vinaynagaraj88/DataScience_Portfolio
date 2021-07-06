@@ -46,3 +46,38 @@ Employees traveling more than 10 miles are more likely to leave.
 Employees with monthly income of less than 5,000 are more likely to leave.  
 
 
+
+### Modeling
+
+- Target variable – “Class” which determines if a transaction is fraudulent or not.
+- Our dataset is highly imbalanced as most of the transactions are non-fraudulent. 
+- We are implementing oversampling technique called SMOTE to handle our imbalanced dataset.
+- SelectKBest technique used to identify most relevant features.
+- Below is the aggregate measure of performance across the 4 classification models.
+
+![image](https://user-images.githubusercontent.com/54513557/122691509-c3606800-d1f5-11eb-95e4-16c574c64a12.png)
+
+1) Random Forest Model Classification
+
+Below is the Confusion Matrix:
+
+![image](https://user-images.githubusercontent.com/54513557/122691543-f4d93380-d1f5-11eb-86f9-dccf23f70967.png)
+
+
+2) Logistic Regression Model Classification
+
+Below is the Confusion Matrix:
+
+![image](https://user-images.githubusercontent.com/54513557/122691557-0a4e5d80-d1f6-11eb-8b67-d4a0bdda0cda.png)
+
+
+### Conclusion
+
+1) Transaction time does not have any influence on prediction of fraudulent transaction.
+2) SMOTE oversampling technique helped overcome the Imbalanced datasets challenge. 
+3) Best suited classification model for our dataset would be Random forest model. 
+4) 98.528% of the time, Random Forest model will correctly predict if the transaction was fraudulent or not.
+5) 98.032% of the time, Logistic Regression model will correctly predict if the transaction was fraudulent or not.
+
+
+[Link to code in GitHub](https://github.com/vinaynagaraj88/DataScience_Portfolio/tree/main/P1%20-%20Employee%20Attrition)
