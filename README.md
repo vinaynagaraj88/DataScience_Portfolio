@@ -7,7 +7,7 @@ I’m Vinay Nagaraj. I’m originally from India and relocated to USA in 2015. I
 Below is the list of projects which I worked during my course of study:
 
 1)	[Project 1 – Employee Attrition](https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/tree/main/P1%20-%20Employee%20Attrition).  
-2)	Project 2 – 680 Place Holder.  
+2)	[Project 2 – Banking Customer Churn](https://github.com/vinaynagaraj88/DataScience_Portfolio/tree/main/P2%20-%20Banking%20Customer%20Churn).
 3)	Project 3 – 680 Place Holder.  
 4)	[Project 4 – Credit Card Fraud](https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/blob/main/P4%20-%20Credit%20Card%20Fraud/README.md).  
 5)	[Project 5 – Airline Safety](https://github.com/vinaynagaraj88/vinaynagaraj88.github.io/tree/main/P5%20-%20Airline%20Safety).  
