@@ -53,22 +53,25 @@ Employees with monthly income of less than 5,000 are more likely to leave.
 - Our dataset is highly imbalanced as most of the transactions are non-fraudulent. 
 - We are implementing oversampling technique called SMOTE to handle our imbalanced dataset.
 - SelectKBest technique used to identify most relevant features.
+- Top 15 features selected using SelectKBest technique.
+
+![image](https://user-images.githubusercontent.com/54513557/124594459-6d123c80-de25-11eb-9bda-a1288bed6746.png)
+
 - Below is the aggregate measure of performance across the 4 classification models.
 
-![image](https://user-images.githubusercontent.com/54513557/122691509-c3606800-d1f5-11eb-95e4-16c574c64a12.png)
+![image](https://user-images.githubusercontent.com/54513557/124594204-26244700-de25-11eb-83f2-b1102b5a5d59.png)
 
 1) Random Forest Model Classification
 
 Below is the Confusion Matrix:
 
-![image](https://user-images.githubusercontent.com/54513557/122691543-f4d93380-d1f5-11eb-86f9-dccf23f70967.png)
-
+![image](https://user-images.githubusercontent.com/54513557/124594286-3c320780-de25-11eb-9226-2a15498afe8a.png)
 
 2) Logistic Regression Model Classification
 
 Below is the Confusion Matrix:
 
-![image](https://user-images.githubusercontent.com/54513557/122691557-0a4e5d80-d1f6-11eb-8b67-d4a0bdda0cda.png)
+![image](https://user-images.githubusercontent.com/54513557/124594322-494ef680-de25-11eb-8082-f9bd11b911c4.png)
 
 
 ### Conclusion
