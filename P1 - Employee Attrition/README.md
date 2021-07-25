@@ -49,13 +49,11 @@ Employees with monthly income of less than 5,000 are more likely to leave.
 
 ### Modeling
 
-- Target variable – “Class” which determines if a transaction is fraudulent or not.
-- Our dataset is highly imbalanced as most of the transactions are non-fraudulent. 
-- We are implementing oversampling technique called SMOTE to handle our imbalanced dataset.
-- SelectKBest technique used to identify most relevant features.
-- Top 15 features selected using SelectKBest technique.
+- Target variable – “Attrition” which determines if the Employee quit the company or not. 
+- SelectKBest technique used to identify the top 15 most relevant features.
+- Below are the features plotted based on their relevence. 
 
-![image](https://user-images.githubusercontent.com/54513557/124594459-6d123c80-de25-11eb-9bda-a1288bed6746.png)
+![image](https://user-images.githubusercontent.com/54513557/126905618-c954b2d4-fa93-4d57-a8c2-ca0a03e04d3d.png)
 
 - Below is the aggregate measure of performance across the 4 classification models.
 
