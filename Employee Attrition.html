@@ -1,0 +1,64 @@
+<html><head><style>body {
+   color: black;
+}
+</style></head><body><h2 id="employee-attrition-prediction">Employee Attrition Prediction</h2>
+<h3 id="project-summary">Project Summary</h3>
+<p><img src="https://user-images.githubusercontent.com/54513557/123791640-50b25500-d8a5-11eb-890f-6ce8b632cfaf.png" alt="image"></p>
+<p>Attrition can make a big dent in your organization’s bottom line as well as its culture. For an organization to perform successfully, it is important that the employer and the employee have a good relationship and understanding. When an employee decides to quit, there will be a lot of challenges for the employer. It will impact their productivity, revenue, experience and also time invested in training the employee.<br>This project intends to identify the factors that lead to employee attrition and build a classifier model that would help an organization in predicting the employees that can leave the organization.  </p>
+<h3 id="dataset-details">Dataset details</h3>
+<ol>
+<li><strong>Input Data</strong> - <a href="https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset">Kaggle</a></li>
+<li>The dataset used is a fictional data set created by IBM data scientists and available on Kaggle.</li>
+<li>Out of 1,470 records, 237 are data related to Employees who left.</li>
+<li>Working ‘OverTime’ is a majorly contributing factor to Employee Attrition.</li>
+</ol>
+<h3 id="technology-used">Technology Used</h3>
+<ol>
+<li>Python 3</li>
+<li>Jupyter Notebook</li>
+</ol>
+<h3 id="exploratory-data-analysis">Exploratory Data Analysis</h3>
+<ol>
+<li>Attrition &#39;Yes&#39; vs &#39;No&#39;</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/123792139-e8b03e80-d8a5-11eb-9a1d-22b66e608656.png" alt="image"></p>
+<ol>
+<li>Working Over Time</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/123792448-3b89f600-d8a6-11eb-98b5-9af846e1cc25.png" alt="image"></p>
+<p>Employees working overtime are more likely to leave.  </p>
+<ol>
+<li>Distance from Home</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/123792201-fc5ba500-d8a5-11eb-871b-d751d3e43ccf.png" alt="image"></p>
+<p>Employees traveling more than 10 miles are more likely to leave.  </p>
+<ol>
+<li>Monthly Income</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/123792326-1c8b6400-d8a6-11eb-983d-524535fb1a1d.png" alt="image"></p>
+<p>Employees with monthly income of less than 5,000 are more likely to leave.  </p>
+<h3 id="modeling">Modeling</h3>
+<ul>
+<li>Target variable – “Attrition” which determines if the Employee quit the company or not. </li>
+<li>SelectKBest technique used to identify the top 15 most relevant features.</li>
+<li>Below are the features plotted based on their relevence. </li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/54513557/126905618-c954b2d4-fa93-4d57-a8c2-ca0a03e04d3d.png" alt="image"></p>
+<ul>
+<li>Below is the aggregate measure of performance across the 4 classification models.</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/54513557/124594204-26244700-de25-11eb-83f2-b1102b5a5d59.png" alt="image"></p>
+<p>1) Random Forest Model Classification</p>
+<p>Below is the Confusion Matrix:</p>
+<p><img src="https://user-images.githubusercontent.com/54513557/124594286-3c320780-de25-11eb-9226-2a15498afe8a.png" alt="image"></p>
+<p>2) Logistic Regression Model Classification</p>
+<p>Below is the Confusion Matrix:</p>
+<p><img src="https://user-images.githubusercontent.com/54513557/124594322-494ef680-de25-11eb-8082-f9bd11b911c4.png" alt="image"></p>
+<h3 id="conclusion">Conclusion</h3>
+<p>1) As proven by Graph Analysis and SelectKBest, ‘OverTime’ plays a major factor in employee attrition.
+2) Using Random Forest Model our model will correctly predict if the employee would leave the company or not 78.3% of the time.
+3) Logistic Regression Model our model will correctly predict if the employee would leave the company or not 75% of the time.
+4) Random forest model has fewer false positives than logistic regression making it a better model.
+5) Ingesting more data to our machine learning model will help us get better results from what we have achieved here in our research.</p>
+<p><a href="https://github.com/vinaynagaraj88/DataScience_Portfolio/tree/main/P1%20-%20Employee%20Attrition">Link to code in GitHub</a></p>
+</body></html>

@@ -1,0 +1,76 @@
+<html><head><style>body {
+   color: black;
+}
+</style></head><body><h2 id="banking-customer-churn">Banking Customer Churn</h2>
+<h3 id="project-summary">Project Summary</h3>
+<p><img src="https://user-images.githubusercontent.com/54513557/126904905-6584eb5b-8e5a-4e1c-ba12-9a80bc707113.png" alt="image"></p>
+<p>Customers are the most important part of your business regardless of the industry. There would be no sales without customers and they are a critical factor when developing your marketing messaging and strategy. Customer Churn is the rate at which customers stop doing business with an entity. This is one of the most acknowledged problems in the banking sector and Banks are constantly looking at data/suggestions which could help them improve their customer service and retain their existing customers and also bring in new customers.<br>Through this project, I intend to focus on the behavior of bank customers who are more likely to leave the bank. I want to find out some striking behaviors of customers through Exploratory Data Analysis and later on use some of the predictive analytics techniques to determine the customers who are most likely to churn.  </p>
+<h3 id="dataset-details">Dataset details</h3>
+<ol>
+<li><strong>Input Data</strong> - <a href="https://www.kaggle.com/shrutimechlearn/churn-modelling">Kaggle</a></li>
+<li>The dataset contains 10,000 records with 13 attributes and one target variable.</li>
+<li>Demographically the information is about customers from Spain, France, and Germany.</li>
+<li>55% of customers are Male, and 45% are Female, with an average age of 38.9 years. </li>
+<li>‘Age’ is a majorly contributing factor to Customer Churn. </li>
+</ol>
+<h3 id="technology-used">Technology Used</h3>
+<ol>
+<li>Python 3</li>
+<li>Jupyter Notebook</li>
+</ol>
+<h3 id="exploratory-data-analysis">Exploratory Data Analysis</h3>
+<ol>
+<li>Exited &#39;0&#39; (Active Customer) vs &#39;1&#39; (Exited Customer)</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/126905039-dd6ecf09-5be1-4168-81ed-6f049d3e1891.png" alt="image"></p>
+<ol>
+<li>Gender wise Customer Churn - Female Customers tend to exit more</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/126905068-f47403c1-5a16-4535-8186-c543b8687f26.png" alt="image"></p>
+<ol>
+<li>Geography wise Customer Churn - Germany Customers tend to exit more</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/126905081-4059c860-3197-436d-b9f7-58255f2c631a.png" alt="image"></p>
+<ol>
+<li>Customer Churn based on Activity - Inactive customers tend to exit the bank more.</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/126905109-895d6a76-40a3-4aa0-aece-379bdad61869.png" alt="image"></p>
+<ol>
+<li>Credit Card Customer Churn - Customers with no credit card tend to exit the bank more.</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/126905147-e876afe9-2bc6-468c-a400-dfdf955e0606.png" alt="image"></p>
+<ol>
+<li>Product wise Customer Churn - The ratio of exited cases with 3 or more products definitely higher than under 2 products.</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/126905167-e9109190-4d53-4773-90a1-2af8e840b687.png" alt="image"></p>
+<ol>
+<li>Age wise Customer Churn - People with Ages between 30 to 40 has the highest probability of staying and Ages between 45 to 55 has the highest probability of leaving.</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/126905196-09a09d29-b064-4daf-82c8-9ad5d5d2ecb4.png" alt="image"></p>
+<h3 id="modeling">Modeling</h3>
+<ul>
+<li>Target variable – “Exited” which determines if a customer exited the bank or not. </li>
+<li>SelectKBest technique used to identify most relevant features and below is a plot on their importance.</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/54513557/126905251-665eac24-fba9-4ea3-bf2f-ebc04aef81a7.png" alt="image"></p>
+<ul>
+<li>Below is the aggregate measure of performance across the popular classification models.</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/54513557/126905278-496a744b-d9f1-4549-a2a8-23d229290ecd.png" alt="image"></p>
+<p>1) Random Forest Model Classification</p>
+<p>Below is the Confusion Matrix after HyperParameter Tuning:</p>
+<p><img src="https://user-images.githubusercontent.com/54513557/126905286-9fb7fce2-0a94-45d7-9561-ead73c0e4c6d.png" alt="image"></p>
+<p>2) SVC Classification</p>
+<p>Below is the Confusion Matrix after HyperParameter Tuning:</p>
+<p><img src="https://user-images.githubusercontent.com/54513557/126905301-03927b99-3994-4566-9fb8-4053eda94673.png" alt="image"></p>
+<p>3) GaussianNB Classification</p>
+<p>Below is the Confusion Matrix after HyperParameter Tuning:</p>
+<p><img src="https://user-images.githubusercontent.com/54513557/126905322-890dda54-e5bb-48ac-b067-3fef1b0c0e30.png" alt="image"></p>
+<h3 id="conclusion">Conclusion</h3>
+<p>1) Banks need to see how they can engage the older generation more with their bank.
+2) It is important to make sure banks keep the customers actively engaged with the bank.
+3) Bank need to improve their service to Female customers and also customers in Germany.
+4) Provide interesting perks to customers who open a credit card with their bank.
+5) Random Forest Classification model is best suited for this prediction.</p>
+<p><a href="https://github.com/vinaynagaraj88/DataScience_Portfolio/tree/main/P2%20-%20Banking%20Customer%20Churn">Link to code in GitHub</a></p>
+</body></html>
