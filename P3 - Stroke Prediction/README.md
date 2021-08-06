@@ -4,8 +4,10 @@
 
 ![Stroke Prediction](https://user-images.githubusercontent.com/54513557/128503763-1e527568-af4c-4887-8689-f3cca8a01bad.jpeg)
 
-Customers are the most important part of your business regardless of the industry. There would be no sales without customers and they are a critical factor when developing your marketing messaging and strategy. Customer Churn is the rate at which customers stop doing business with an entity. This is one of the most acknowledged problems in the banking sector and Banks are constantly looking at data/suggestions which could help them improve their customer service and retain their existing customers and also bring in new customers.  
-Through this project, I intend to focus on the behavior of bank customers who are more likely to leave the bank. I want to find out some striking behaviors of customers through Exploratory Data Analysis and later on use some of the predictive analytics techniques to determine the customers who are most likely to churn.  
+According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths. A stroke happens when blood stops flowing to any part of your brain, damaging brain cells.  
+Recent advances in stroke care have reduced case fatality and improved functional outcomes after stroke. Detecting Stroke at an early stage and providing medication for that is very crucial to a patient's health condition. If stroke can be predicted at an early stage there is 4% lower risk of in-hospital death, 4% better odds of walking independently after leaving the hospital and also 3% better odds of being sent home instead of to an institution.  
+As part as of this project, we are trying to identify the factors that lead to stroke in patients and build a classifier model that would help hospitals in predicting if a patient is likely to suffer from stroke or not.
+ 
 
 ### Dataset details
 
