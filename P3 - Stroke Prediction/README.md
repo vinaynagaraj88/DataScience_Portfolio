@@ -2,7 +2,7 @@
 
 ### Project Summary
 
-![Stroke Prediction](https://user-images.githubusercontent.com/54513557/128503763-1e527568-af4c-4887-8689-f3cca8a01bad.jpeg)
+![image](https://user-images.githubusercontent.com/54513557/128537143-a82648b9-6624-45a8-be27-7e3d17250f6e.png)
 
 According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths. A stroke happens when blood stops flowing to any part of your brain, damaging brain cells.  
 Recent advances in stroke care have reduced case fatality and improved functional outcomes after stroke. Detecting Stroke at an early stage and providing medication for that is very crucial to a patient's health condition. If stroke can be predicted at an early stage there is 4% lower risk of in-hospital death, 4% better odds of walking independently after leaving the hospital and also 3% better odds of being sent home instead of to an institution.  
