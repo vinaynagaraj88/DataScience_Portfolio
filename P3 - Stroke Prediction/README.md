@@ -1,4 +1,4 @@
-## Banking Customer Churn
+## Stroke Prediction
 
 ### Project Summary
 
@@ -12,10 +12,9 @@ As part as of this project, we are trying to identify the factors that lead to s
 ### Dataset details
 
 1. **Input Data** - [Kaggle](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset)
-2. The dataset contains 10,000 records with 13 attributes and one target variable.
-3. Demographically the information is about customers from Spain, France, and Germany.
-4. 55% of customers are Male, and 45% are Female, with an average age of 38.9 years. 
-5. ‘Age’ is a majorly contributing factor to Customer Churn. 
+2. The dataset contains 5,110 records with 11 attributes and one target variable.
+3. bmi” column had 201 missing rows which was filled using the Forward Fill technique.
+4. ‘Age’ is a majorly contributing factor to Customer Churn. 
 
 ### Technology Used
 
@@ -24,71 +23,67 @@ As part as of this project, we are trying to identify the factors that lead to s
 
 ### Exploratory Data Analysis
 
-1. Exited '0' (Active Customer) vs '1' (Exited Customer)
+1. No-Stroke '0' vs Stroke '1'
 
-![image](https://user-images.githubusercontent.com/54513557/126905039-dd6ecf09-5be1-4168-81ed-6f049d3e1891.png)
+![image](https://user-images.githubusercontent.com/54513557/128504471-595d15ac-f41e-47ed-bd68-4b41ba91d5c3.png)
 
-2. Gender wise Customer Churn - Female Customers tend to exit more
+2. Stroke Distribution by Age
 
-![image](https://user-images.githubusercontent.com/54513557/126905068-f47403c1-5a16-4535-8186-c543b8687f26.png)
+![image](https://user-images.githubusercontent.com/54513557/128504524-597a4e58-42e8-43d0-9af5-ee7151032c7f.png)
 
-3. Geography wise Customer Churn - Germany Customers tend to exit more
+3. Effects of Smoking on Stroke
 
-![image](https://user-images.githubusercontent.com/54513557/126905081-4059c860-3197-436d-b9f7-58255f2c631a.png)
+![image](https://user-images.githubusercontent.com/54513557/128504570-4770f9a3-00a7-4712-bfec-56455c145e9c.png)
 
-4. Customer Churn based on Activity - Inactive customers tend to exit the bank more.
+4. Effect of Heart disease on Stroke
 
-![image](https://user-images.githubusercontent.com/54513557/126905109-895d6a76-40a3-4aa0-aece-379bdad61869.png)
+![image](https://user-images.githubusercontent.com/54513557/128504616-5eba4ef9-4477-429f-98dc-b662e1c56110.png)
 
-5. Credit Card Customer Churn - Customers with no credit card tend to exit the bank more.
+5. Effect of work type on Stroke
 
-![image](https://user-images.githubusercontent.com/54513557/126905147-e876afe9-2bc6-468c-a400-dfdf955e0606.png)
+![image](https://user-images.githubusercontent.com/54513557/128504695-261391cc-7037-4760-b797-2024589d5002.png)
 
-6. Product wise Customer Churn - The ratio of exited cases with 3 or more products definitely higher than under 2 products.
+6. Effect of marriage on Stroke
 
-![image](https://user-images.githubusercontent.com/54513557/126905167-e9109190-4d53-4773-90a1-2af8e840b687.png)
+![image](https://user-images.githubusercontent.com/54513557/128504743-92753735-fcf5-4475-ae1a-fdc377546990.png)
 
-7. Age wise Customer Churn - People with Ages between 30 to 40 has the highest probability of staying and Ages between 45 to 55 has the highest probability of leaving.
+7. Effect of Gender on Stroke
 
-![image](https://user-images.githubusercontent.com/54513557/126905196-09a09d29-b064-4daf-82c8-9ad5d5d2ecb4.png)
+![image](https://user-images.githubusercontent.com/54513557/128504797-85649be1-c1cc-42d0-a880-fb043c3c3fb9.png)
+
+8. Effect of Residence Type on Stroke
+
+![image](https://user-images.githubusercontent.com/54513557/128504867-279e0bbc-b7f0-494a-a264-1eedf46bba9f.png)
 
 
 ### Modeling
 
-- Target variable – “Exited” which determines if a customer exited the bank or not. 
+- Target variable – “Stroke” which determines if a patient suffered from Stroke or not.  
+- Our dataset is highly imbalanced as most of the records contained data of patients who had no-stroke. 
+- We are implementing oversampling technique called SMOTE to handle our imbalanced dataset.
 - SelectKBest technique used to identify most relevant features and below is a plot on their importance.
 
-![image](https://user-images.githubusercontent.com/54513557/126905251-665eac24-fba9-4ea3-bf2f-ebc04aef81a7.png)
+![image](https://user-images.githubusercontent.com/54513557/128504940-479e83d3-dc5c-4e3a-9d60-d991cc1a4de8.png)
 
-- Below is the aggregate measure of performance across the popular classification models.
 
-![image](https://user-images.githubusercontent.com/54513557/126905278-496a744b-d9f1-4549-a2a8-23d229290ecd.png)
+1) Random Forest Model Classification - Results:
 
-1) Random Forest Model Classification
+![image](https://user-images.githubusercontent.com/54513557/128505129-a95ceee9-2b9a-4404-b046-521afc5e01e8.png)
 
-Below is the Confusion Matrix after HyperParameter Tuning:
+2) kNN - Results:
 
-![image](https://user-images.githubusercontent.com/54513557/126905286-9fb7fce2-0a94-45d7-9561-ead73c0e4c6d.png)
+![image](https://user-images.githubusercontent.com/54513557/128505201-0b0121e0-1600-48c0-b91b-b9d909629214.png)
 
-2) SVC Classification
+3) Decision Tree Classification - Results:
 
-Below is the Confusion Matrix after HyperParameter Tuning:
-
-![image](https://user-images.githubusercontent.com/54513557/126905301-03927b99-3994-4566-9fb8-4053eda94673.png)
-
-3) GaussianNB Classification
-
-Below is the Confusion Matrix after HyperParameter Tuning:
-
-![image](https://user-images.githubusercontent.com/54513557/126905322-890dda54-e5bb-48ac-b067-3fef1b0c0e30.png)
+![image](https://user-images.githubusercontent.com/54513557/128505250-77ea6951-e669-4189-990e-0c195007221e.png)
 
 
 ### Conclusion
 
-1) Banks need to see how they can engage the older generation more with their bank.
-2) It is important to make sure banks keep the customers actively engaged with the bank.
-3) Bank need to improve their service to Female customers and also customers in Germany.
-4) Provide interesting perks to customers who open a credit card with their bank.
-5) Random Forest Classification model is best suited for this prediction.
+1) Age is an important factor in Stroke patients.
+2) Smoking is injurious to health and can increase the chances of Stroke.
+3) SMOTE Technique can used to overcome imbalanced data. 
+4) Random Forest Model better suited.
 
 [Link to code in GitHub](https://github.com/vinaynagaraj88/DataScience_Portfolio/tree/main/P3%20-%20Stroke%20Prediction)
