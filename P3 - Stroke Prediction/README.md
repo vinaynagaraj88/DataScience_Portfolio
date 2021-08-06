@@ -13,7 +13,7 @@ As part as of this project, we are trying to identify the factors that lead to s
 
 1. **Input Data** - [Kaggle](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset)
 2. The dataset contains 5,110 records with 11 attributes and one target variable.
-3. bmi” column had 201 missing rows which was filled using the Forward Fill technique.
+3. 'bmi' column had 201 missing rows which was filled using the Forward Fill technique.
 4. ‘Age’ is a majorly contributing factor to Customer Churn. 
 
 ### Technology Used
