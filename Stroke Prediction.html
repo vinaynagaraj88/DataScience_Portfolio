@@ -1,0 +1,73 @@
+<html><head><style>body {
+   color: black;
+}
+</style></head><body><h2 id="stroke-prediction">Stroke Prediction</h2>
+<h3 id="project-summary">Project Summary</h3>
+<p><img src="https://user-images.githubusercontent.com/54513557/128503763-1e527568-af4c-4887-8689-f3cca8a01bad.jpeg" alt="Stroke Prediction"></p>
+<p>According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths. A stroke happens when blood stops flowing to any part of your brain, damaging brain cells.<br>Recent advances in stroke care have reduced case fatality and improved functional outcomes after stroke. Detecting Stroke at an early stage and providing medication for that is very crucial to a patient&#39;s health condition. If stroke can be predicted at an early stage there is 4% lower risk of in-hospital death, 4% better odds of walking independently after leaving the hospital and also 3% better odds of being sent home instead of to an institution.<br>As part as of this project, we are trying to identify the factors that lead to stroke in patients and build a classifier model that would help hospitals in predicting if a patient is likely to suffer from stroke or not.</p>
+<h3 id="dataset-details">Dataset details</h3>
+<ol>
+<li><strong>Input Data</strong> - <a href="https://www.kaggle.com/fedesoriano/stroke-prediction-dataset">Kaggle</a></li>
+<li>The dataset contains 5,110 records with 11 attributes and one target variable.</li>
+<li>&#39;bmi&#39; column had 201 missing rows which was filled using the Forward Fill technique.</li>
+<li>‘Age’ is a majorly contributing factor to Customer Churn. </li>
+</ol>
+<h3 id="technology-used">Technology Used</h3>
+<ol>
+<li>Python 3</li>
+<li>Jupyter Notebook</li>
+</ol>
+<h3 id="exploratory-data-analysis">Exploratory Data Analysis</h3>
+<ol>
+<li>No-Stroke &#39;0&#39; vs Stroke &#39;1&#39;</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/128504471-595d15ac-f41e-47ed-bd68-4b41ba91d5c3.png" alt="image"></p>
+<ol>
+<li>Stroke Distribution by Age</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/128504524-597a4e58-42e8-43d0-9af5-ee7151032c7f.png" alt="image"></p>
+<ol>
+<li>Effects of Smoking on Stroke</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/128504570-4770f9a3-00a7-4712-bfec-56455c145e9c.png" alt="image"></p>
+<ol>
+<li>Effect of Heart disease on Stroke</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/128504616-5eba4ef9-4477-429f-98dc-b662e1c56110.png" alt="image"></p>
+<ol>
+<li>Effect of work type on Stroke</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/128504695-261391cc-7037-4760-b797-2024589d5002.png" alt="image"></p>
+<ol>
+<li>Effect of marriage on Stroke</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/128504743-92753735-fcf5-4475-ae1a-fdc377546990.png" alt="image"></p>
+<ol>
+<li>Effect of Gender on Stroke</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/128504797-85649be1-c1cc-42d0-a880-fb043c3c3fb9.png" alt="image"></p>
+<ol>
+<li>Effect of Residence Type on Stroke</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/54513557/128504867-279e0bbc-b7f0-494a-a264-1eedf46bba9f.png" alt="image"></p>
+<h3 id="modeling">Modeling</h3>
+<ul>
+<li>Target variable – “Stroke” which determines if a patient suffered from Stroke or not.  </li>
+<li>Our dataset is highly imbalanced as most of the records contained data of patients who had no-stroke. </li>
+<li>We are implementing oversampling technique called SMOTE to handle our imbalanced dataset.</li>
+<li>SelectKBest technique used to identify most relevant features and below is a plot on their importance.</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/54513557/128504940-479e83d3-dc5c-4e3a-9d60-d991cc1a4de8.png" alt="image"></p>
+<p>1) Random Forest Model Classification - Results:</p>
+<p><img src="https://user-images.githubusercontent.com/54513557/128505129-a95ceee9-2b9a-4404-b046-521afc5e01e8.png" alt="image"></p>
+<p>2) kNN - Results:</p>
+<p><img src="https://user-images.githubusercontent.com/54513557/128505201-0b0121e0-1600-48c0-b91b-b9d909629214.png" alt="image"></p>
+<p>3) Decision Tree Classification - Results:</p>
+<p><img src="https://user-images.githubusercontent.com/54513557/128505250-77ea6951-e669-4189-990e-0c195007221e.png" alt="image"></p>
+<h3 id="conclusion">Conclusion</h3>
+<p>1) Age is an important factor in Stroke patients.
+2) Smoking is injurious to health and can increase the chances of Stroke.
+3) SMOTE Technique can used to overcome imbalanced data. 
+4) Random Forest Model better suited.</p>
+<p><a href="https://github.com/vinaynagaraj88/DataScience_Portfolio/tree/main/P3%20-%20Stroke%20Prediction">Link to code in GitHub</a></p>
+</body></html>
